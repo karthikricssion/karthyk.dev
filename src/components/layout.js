@@ -25,7 +25,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `32px auto`,
@@ -52,3 +51,5 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+// <Header siteTitle={data.site.siteMetadata.title} />
