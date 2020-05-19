@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 122">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 150px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: National;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-size: 100px;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="&lt;" class="cls-1" x="4.639" y="99.514">&lt;</text>
+  <text id="_2" data-name="&gt;" class="cls-1" x="435.26" y="99.034">&gt;</text>
+  <text id="karthyk" class="cls-2" x="85.337" y="93.756">karthyk</text>
+</svg>

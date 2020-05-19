@@ -2,31 +2,36 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import SiteLogo from '../assets/karthik.logo.svg'
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      height: 80,
+      paddingTop: 24,
+      paddingBottom: 24,
+      backgroundColor: '#fff',
+      borderBottom: "1px solid #e4e4e4"
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        maxWidth: 960
       }}
     >
-      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: '#333',
             textDecoration: `none`,
+            display: 'block',
+            maxWidth: 150,
+            marginLeft:16
           }}
         >
-          {siteTitle}
+          <SiteLogo />
         </Link>
-      </h1>
     </div>
   </header>
 )
