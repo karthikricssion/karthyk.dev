@@ -14,5 +14,6 @@ https://www.gatsbyjs.org/docs/working-with-images-in-markdown/
 1. Faced issue in sub pages and template rendering \
 https://spectrum.chat/gatsby-js/general/help-page-created-twice~14e69e60-8327-42fa-850c-11dc7991ee86
 
-### Ref design sites
-https://ia.net/
+### Ref sites
+https://styled-components.com/docs/basics
+https://www.npmjs.com/package/@fortawesome/react-fontawesome#installation

@@ -1,10 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby";
+import React from "react";
 
-import SiteLogo from '../assets/karthik.logo.svg'
+import SiteLogo from '../../assets/karthik.logo.svg'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
       height: 80,
@@ -17,7 +16,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960
+        maxWidth: 864
       }}
     >
         <Link
@@ -35,13 +34,5 @@ const Header = ({ siteTitle }) => (
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

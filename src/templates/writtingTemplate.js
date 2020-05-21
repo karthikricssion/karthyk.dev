@@ -8,7 +8,7 @@ export default ({ data }) => {
     return (
         <Layout>
             <div>
-                <div class="blog-post-informations">
+                <div>
                     <p>{post.frontmatter.date}, by <a href={ post.frontmatter.author.url }>{post.frontmatter.author.name}</a></p>
                     <div>
                         {post.frontmatter.tags.map((tag, index) => (
