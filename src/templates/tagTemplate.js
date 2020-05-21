@@ -1,38 +1,40 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 
-export default ({ data }) => {
+import BannerText from '../components/banner';
+import WritingList from '../components/writings/SinglewritingList'
+
+export default (props) => {
     
     return (
         <Layout>
-            {data.allMarkdownRemark.nodes.map(({ frontmatter } , index ) => (
-                <div>
-                    <Link to={frontmatter.slug} key={index}>{frontmatter.title}</Link>
-                </div>
-            ))}
+            <BannerText pageHeading={props.pathContext.tag} />
+            <WritingList writings={props.data.allMarkdownRemark.nodes} />
         </Layout>
   );
 };
 
 export const query = graphql`
     query($tag: String!) {
+        sitePage {
+            path
+            context {
+                tag
+            }
+        }
+
         allMarkdownRemark(
             sort: {fields: frontmatter___date, order: DESC}, 
             filter: {frontmatter: {tags: {in: [$tag]}}}
         ) {
             nodes {
-                html
                 frontmatter {
                     date(formatString: "MMMM D, YYYY")
                     title
-                    tags
                     slug
-                    author {
-                        name
-                        url
-                    }
                 }
+                excerpt(pruneLength: 500)
                 timeToRead
             }
         }

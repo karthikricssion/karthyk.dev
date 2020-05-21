@@ -1,37 +1,24 @@
 import React from "react";
-import { graphql, Link } from 'gatsby';
-
-import shardedStyle from '../../components/shared/style.js'
-import styled from 'styled-components';
+import { graphql } from 'gatsby';
 
 import Layout from '../../components/layout';
+import BannerText from '../../components/banner';
+import WritingList from '../../components/writings/SinglewritingList'
 import SEO from "../../components/seo"
-
-const WritingListStyle = styled.article`${shardedStyle.writingList}`
-const WritingListTitle = styled.h2`${shardedStyle.WritingListTitle}`
-const WritingListDatePosted = styled.aside`${shardedStyle.writingListDatePosted}`
-const WritingListOverview = styled.p`${shardedStyle.writingListOverview}`
 
 const WrittingsListPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Writings" />
             <section className="container">
-              {data.allMarkdownRemark.nodes.map(({ frontmatter, timeToRead, excerpt } , index ) => (
-                  <WritingListStyle key={index}>
-                    <WritingListTitle>
-                      <Link to={frontmatter.slug}>{frontmatter.title}</Link>
-                    </WritingListTitle>
-                    
-                    <WritingListDatePosted>
-                        <time>{frontmatter.date} - {timeToRead} min read</time>
-                    </WritingListDatePosted>
+              <BannerText 
+                pageHeading="Writings" 
+                pageInformation="I use this space to share my thoughts on startups, design thinking, product development, ideas, code and my learnings."
+              />
+            </section>
 
-                    <Link to={frontmatter.slug}>
-                      <WritingListOverview>{excerpt}</WritingListOverview>
-                    </Link>
-                  </WritingListStyle>
-              ))}
+            <section className="container">
+                <WritingList writings={data.allMarkdownRemark.nodes} />
             </section>
         </Layout>
     )
@@ -42,7 +29,7 @@ const WrittingsListPage = ({ data }) => {
 
 export const query = graphql`
 query TagsList {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC},) {
       nodes {
         frontmatter {
           date(formatString: "D MMMM YYYY")

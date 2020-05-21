@@ -1,6 +1,6 @@
 ---
 slug: "/writings/analysis-and-thoughts-on-marketing"
-title: "analysis and thoughts on marketing"
+title: "Analysis and thoughts on marketing"
 date: "2018-09-08"
 tags: 
     - marketing

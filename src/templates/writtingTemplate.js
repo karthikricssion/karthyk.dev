@@ -3,26 +3,31 @@ import _ from 'lodash';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 
+import WritingDetail from '../components/writings/writingDetail';
+
 export default ({ data }) => {
     const post = data.markdownRemark
     return (
         <Layout>
-            <div>
+            <section className="container">
+                <WritingDetail post={post} />
+
                 <div>
-                    <p>{post.frontmatter.date}, by <a href={ post.frontmatter.author.url }>{post.frontmatter.author.name}</a></p>
                     <div>
-                        {post.frontmatter.tags.map((tag, index) => (
-                            <Link className="tag button"
-                                key={tag}
-                                to={`/writings/tags/${_.kebabCase(tag)}`}>
-                            {tag}
-                        </Link>
-                        ))}
+                        <div>
+                            {post.frontmatter.tags.map((tag, index) => (
+                                <Link className="tag button"
+                                    key={tag}
+                                    to={`/writings/tags/${_.kebabCase(tag)}`}>
+                                {tag}
+                            </Link>
+                            ))}
+                        </div>
                     </div>
+                    <h1>{ post.frontmatter.title }</h1>
+                    <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 </div>
-                <h1>{ post.frontmatter.title }</h1>
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </div>
+            </section>
         </Layout>
   );
 };
