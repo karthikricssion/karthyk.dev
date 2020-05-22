@@ -7,7 +7,6 @@ import WritingDetail from '../components/writings/writingDetail';
 
 export default ({ data }) => {
     const post = data.markdownRemark
-    console.log(post)
     return (
         <Layout>
             <SEO title={post.frontmatter.title} description={post.excerpt} />
