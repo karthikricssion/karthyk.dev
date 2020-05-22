@@ -6,7 +6,7 @@ tags:
     - product
     - features
     - startup
-author: { name: '@karthik_dot_js', url: 'https://twitter.com/karthik_dot_js' }
+author: { name: 'Karthikeyan Rajendran', url: 'https://twitter.com/karthik_dot_js' }
 published: true
 ---
 

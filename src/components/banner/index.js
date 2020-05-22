@@ -2,12 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BannerHead = styled.h1`
-    margin-top: 32px;
-    margin: 0; 
+    margin:0;
     font-size: 56px; 
-    lineHeight: 1.1; 
+    line-height: 1.1; 
     hyphens: normal; 
-    fontWeight: bold;
+    font-weight: bold;
 
     &::first-letter {
         text-transform: uppercase;

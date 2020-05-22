@@ -11,22 +11,6 @@ export default ({ data }) => {
         <Layout>
             <section className="container">
                 <WritingDetail post={post} />
-
-                <div>
-                    <div>
-                        <div>
-                            {post.frontmatter.tags.map((tag, index) => (
-                                <Link className="tag button"
-                                    key={tag}
-                                    to={`/writings/tags/${_.kebabCase(tag)}`}>
-                                {tag}
-                            </Link>
-                            ))}
-                        </div>
-                    </div>
-                    <h1>{ post.frontmatter.title }</h1>
-                    <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                </div>
             </section>
         </Layout>
   );
