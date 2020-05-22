@@ -18,7 +18,7 @@ const WritingDetailsTimeAuthor = styled.aside`
     }
 
     ${media.phone`
-        font-size: 17px;
+        font-size: 16px;
     `}
 `
 

@@ -5,7 +5,9 @@ import media from '../shared/mediaQueries';
 
 import shardedStyle from '../shared/style.js'
 
-const WritingListStyle = styled.article`${shardedStyle.writingList}`
+const WritingListStyle = styled.article`${shardedStyle.writingList}
+    margin-top:0;
+`
 
 const WritingsHead = styled.h1`
     margin: 0; 

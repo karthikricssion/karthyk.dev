@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import styled from 'styled-components';
 import SiteLogo from '../../assets/karthik.logo.svg'
+import media from '../shared/mediaQueries';
 
 const SiteHeader = styled.header`
     height: 80px;
@@ -14,6 +15,12 @@ const SiteHeader = styled.header`
 const SiteHeaderLayout = styled.div`
     margin: 0 auto;
     max-width: 854px;
+
+    ${media.phone`
+      .logo-link {
+        width: 114px;
+      }
+    `}
 `
 
 const SiteHeaderRightSide = styled.div`
@@ -26,6 +33,14 @@ const SiteHeaderRightSide = styled.div`
         margin-right:16px;
         font-size: 22px;
         line-height: 1.8;
+
+        ${media.phone`
+          font-size: 16px;
+        `}
+
+        ${media.tablet`
+          font-size: 16px;
+        `}
     }
 `
 
@@ -34,6 +49,7 @@ const Header = () => (
     <SiteHeaderLayout>
         <Link
           to="/"
+          className="logo-link"
           style={{
             color: '#333',
             textDecoration: `none`,
