@@ -10,13 +10,11 @@ const WrittingsListPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Writings" description="I use this space to share my thoughts on startups, design thinking, product development, ideas, code and my learnings."/>
-            
-            <section className="container">
-              <BannerText 
-                pageHeading="Writings" 
-                pageInformation="I use this space to share my thoughts on startups, design thinking, product development, ideas, code and my learnings."
-              />
-            </section>
+          
+            <BannerText 
+              pageHeading="Writings" 
+              pageInformation="I use this space to share my thoughts on startups, design thinking, product development, ideas, code and my learnings."
+            />
 
             <section className="container">
                 <WritingList writings={data.allMarkdownRemark.nodes} />

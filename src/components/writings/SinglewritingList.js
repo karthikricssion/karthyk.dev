@@ -3,11 +3,32 @@ import { Link } from 'gatsby';
 
 import shardedStyle from '../shared/style.js'
 import styled from 'styled-components';
+import media from '../shared/mediaQueries';
 
-const WritingListStyle = styled.article`${shardedStyle.writingList}`
-const WritingListTitle = styled.h2`${shardedStyle.WritingListTitle}`
-const WritingListDatePosted = styled.aside`${shardedStyle.writingListDatePosted}`
-const WritingListOverview = styled.p`${shardedStyle.writingListOverview}`
+const WritingListStyle = styled.article`${shardedStyle.writingList}
+    &:first-child {
+        margin-top:0;
+    }
+`
+const WritingListTitle = styled.h2`${shardedStyle.WritingListTitle}
+    ${media.phone`
+        font-size: 22px;
+    `}
+
+    ${media.tablet`
+        font-size: 28px;
+    `}
+`
+const WritingListDatePosted = styled.aside`${shardedStyle.writingListDatePosted}
+    ${media.phone`
+        font-size: 16px;
+    `}
+`
+const WritingListOverview = styled.p`${shardedStyle.writingListOverview}
+    ${media.phone`
+        font-size: 16px;
+    `}
+`
 
 const WritingList = (props) => {
     return (    

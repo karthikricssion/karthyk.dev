@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import './style.css';
-
+import media from '../shared/mediaQueries';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub, faTwitter, faMediumM, faDribbble } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -19,6 +19,10 @@ const ConnectMeContainer = styled.div`
 
 const CopyRightContainer = styled.div`
     display:block;
+
+    ${media.phone`
+        font-size: 12px;
+    `}
 `
 
 const Footer = () => (

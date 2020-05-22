@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import DateAutherTag from './postDetailComponents/dateAuthor';
+import media from '../shared/mediaQueries';
 
 import shardedStyle from '../shared/style.js'
 
@@ -17,6 +18,14 @@ const WritingsHead = styled.h1`
     &::first-letter {
         text-transform: uppercase;
     }
+
+    ${media.phone`
+        font-size: 32px;
+    `}
+
+    ${media.tablet`
+        font-size: 40px;
+    `}
 `
 
 const WritingDetails = ( props ) => {

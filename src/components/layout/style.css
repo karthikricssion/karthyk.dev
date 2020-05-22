@@ -662,3 +662,30 @@ html {
       margin: 64px 0;
   }
 }
+
+@media (max-width: 48em) {
+  .writing-content p {
+    font-size: 24px;
+    line-height: 1.7;
+  }
+
+  .writing-content h2 {
+    margin-top: 2em;
+    line-height: 1.3333333333;
+  }
+
+  .writing-content ul { 
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 36em) {
+  .writing-content p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  .writing-content h2 {
+    font-size: 22px;
+  }
+}

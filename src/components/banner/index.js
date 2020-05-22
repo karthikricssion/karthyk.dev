@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import media from '../shared/mediaQueries';
 
 const BannerHead = styled.h1`
     margin:0;
@@ -11,6 +12,14 @@ const BannerHead = styled.h1`
     &::first-letter {
         text-transform: uppercase;
     }
+
+    ${media.phone`
+        font-size: 32px;
+    `}
+
+    ${media.tablet`
+        font-size: 40px;
+    `}
 `
 
 const BannerHeadTwo = styled.h2`
@@ -18,7 +27,15 @@ const BannerHeadTwo = styled.h2`
     font-weight:bold; 
     margin: 24px 0; 
     font-size: 24px; 
-    line-height: 1.3333333333
+    line-height: 1.3333333333;
+
+    ${media.phone`
+        font-size: 21px;
+    `}
+
+    ${media.tablet`
+        font-size: 22px;
+    `}
 `
 
 const BannerText = (props) => (

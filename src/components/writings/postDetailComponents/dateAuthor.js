@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+
+import media from '../../shared/mediaQueries';
 import WritingTopic from './category';
 import Tags from './tags'
 
@@ -14,6 +16,10 @@ const WritingDetailsTimeAuthor = styled.aside`
             color: #4ec26e;
         }
     }
+
+    ${media.phone`
+        font-size: 17px;
+    `}
 `
 
 const TagHolder = styled.span`
@@ -26,7 +32,7 @@ const TagHolder = styled.span`
 const PostDateAuthor = ( props ) => {
     return (
         <WritingDetailsTimeAuthor>
-            <time>{ props.date }</time>, by <a href={ props.author.url }>{ props.author.name }</a>
+            <time>{ props.date }</time><span>, by</span> <a href={ props.author.url }>{ props.author.name }</a>
             <br />
             <TagHolder>
                 <WritingTopic category={ props.category }/> { `: ` }
