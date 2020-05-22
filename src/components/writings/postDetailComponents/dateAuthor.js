@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Tags from './tags';
+import WritingTopic from './category';
+import Tags from './tags'
 
 const WritingDetailsTimeAuthor = styled.aside`
     font-size: 22px;
@@ -8,6 +9,7 @@ const WritingDetailsTimeAuthor = styled.aside`
     font-style: italic;
     
     a {
+        text-decoration: underline !important;
         &:hover {
             color: #4ec26e;
         }
@@ -16,6 +18,7 @@ const WritingDetailsTimeAuthor = styled.aside`
 
 const TagHolder = styled.span`
     a {
+        text-decoration: none !important;
         text-transform: capitalize;
     }
 `
@@ -26,6 +29,7 @@ const PostDateAuthor = ( props ) => {
             <time>{ props.date }</time>, by <a href={ props.author.url }>{ props.author.name }</a>
             <br />
             <TagHolder>
+                <WritingTopic category={ props.category }/> { `: ` }
                 <Tags tags={ props.tags } />
             </TagHolder>            
         </WritingDetailsTimeAuthor>

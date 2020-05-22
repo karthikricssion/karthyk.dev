@@ -25,6 +25,7 @@ exports.createPages = async ({ graphql, actions }) => {
                         frontmatter {
                             tags
                             slug
+                            category
                         }
                     }
                 }
@@ -33,12 +34,18 @@ exports.createPages = async ({ graphql, actions }) => {
       
     `)
     
-    const tagSet = new Set();
+    // creating tag pages and assigning template
+    const tagSet = new Set();    
+    const categorySet = new Set();    
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         if (node.frontmatter.tags) {
             node.frontmatter.tags.forEach((tag) => {
                 tagSet.add(tag);
             });
+        }
+
+        if (node.frontmatter.category) {
+            categorySet.add(node.frontmatter.category)
         }
 
         createPage({
@@ -57,6 +64,18 @@ exports.createPages = async ({ graphql, actions }) => {
             component: path.resolve(`./src/templates/tagTemplate.js`),
             context: {
                 tag,
+            },
+        });
+    });
+
+    // creating Category pages and assigning template
+    const categoryList = Array.from(categorySet);
+    categoryList.forEach((category) => {
+        createPage({
+            path: `/writings/category/${_.kebabCase(category)}/`,
+            component: path.resolve(`./src/templates/categoryTemplate.js`),
+            context: {
+                category,
             },
         });
     });

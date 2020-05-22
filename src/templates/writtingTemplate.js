@@ -1,14 +1,16 @@
 import React from 'react';
-import _ from 'lodash';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 import WritingDetail from '../components/writings/writingDetail';
 
 export default ({ data }) => {
     const post = data.markdownRemark
+    console.log(post)
     return (
         <Layout>
+            <SEO title={post.frontmatter.title} description={post.excerpt} />
             <section className="container">
                 <WritingDetail post={post} />
             </section>
@@ -28,7 +30,9 @@ export const query = graphql`
                     name
                     url
                 }
+                category
             }
+            excerpt(pruneLength: 300)
             timeToRead
         }
     }

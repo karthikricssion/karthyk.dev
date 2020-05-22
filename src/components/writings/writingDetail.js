@@ -25,7 +25,8 @@ const WritingDetails = ( props ) => {
             <DateAutherTag
                 date={ props.post.frontmatter.date }
                 author={ props.post.frontmatter.author }
-                tags={ props.post.frontmatter.tags }
+                category={ props.post.frontmatter.category }
+                tags = { props.post.frontmatter.tags }
             />
 
             <WritingsHead>{ props.post.frontmatter.title }</WritingsHead>
