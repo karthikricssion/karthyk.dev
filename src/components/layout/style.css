@@ -647,6 +647,18 @@ html {
   line-height: 1.3333333333;
 }
 
+.writing-content h3 {
+  font-size: 18px;
+  margin-top: 2em;
+  line-height: 1.7;
+}
+
+.writing-content h4 {
+  font-size: 17px;
+  margin-top: 2em;
+  line-height: 1.3333333333;
+}
+
 .writing-content ul li {
     margin-left: 1.5em;
     padding-left: 0;

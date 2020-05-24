@@ -17,7 +17,7 @@ Today we pushed flow bot feature inside [yekaliva](https://yekaliva.ai/). Where 
 
 ![yekaliva flow bot builder](../../images/flow-bot-builder-yekaliva.png)
 
-### Why ?
+## Why ?
 After we push widget UI/UX design to production and did a test [marketing](https://karthyk.dev/writings/tags/marketing) over our existing customers, partners, and our network. We were surprised and excited to get new queries from them stating that our chatbot platform helps to create a FAQ bot ( eventually the don't know about the engineering behind understanding user queries). No, Don't think that way I am not against that, Instead, i was took note of the things which the were asking, I have mentioned it as list
 
 - Bot response needs to be more interactive with response types like image carousel, videos, GIF's, etc
@@ -30,10 +30,10 @@ All the above features are more important, I was starting to prioritize the list
 
 Yes our [product](https://yekaliva.ai/) was way ahead of those thousand of flow bot products available inside the market. But since the market condition and our customers are looking for a flow bot. We need to work on that as the main priority. 
 
-### How ?
+## How ?
 While going through many products I was little impressed by [flowXO](https://flowxo.com/) and [gupshup](https://www.gupshup.io/). Especially gupshup, I love the way they have made there flow bot-building platform that can make the user understand how and show how the conversation flow and how it's structured that connects with other flows. I am talking mostly from the UX/UI perspective only. 
 
-#### Misleading
+### Misleading
 As a product developer, I need to take up this as a challenge. Wait we have a major drawback in order to build this system and integrate with our existing engine. I had a conversation with my founder, about why not we build this product separately with a one-month deadline. Since we need to dig lots of stuff that needed to be changed inside the engine, if not planned it might be a huge time loss for us. But he without even thinking about the complexity, He acted as a boss and asked me to do it whatever it takes.
 
 Me with one intermediate and one junior developer had a lot of thoughts running over my mind about how to convey this big picture to the team, how not to think about the problems that the will undergo while building this flow system. I came up with a plan  
@@ -41,12 +41,12 @@ Me with one intermediate and one junior developer had a lot of thoughts running 
 - Create a schema and build UI
 - Integrate inside the [product](https://yekaliva.ai/)
 
-#### Understand how gupshup client is build
+### Understand how gupshup client is build
 This was quite a challenging one. I created an account inside gupshup and opened my partner in crime ( chrome developer console ) started to see how the template is created. Being a front end developer and built a SAAS [product](https://yekaliva.ai/) alone, taught me the fastest way to build layouts. I designed the design elements and CRUD functionalities on the back-end first. I was not a common thinker of algorithms. 
 
 While inspecting the gupshup flow previewer deeply understanding what is happening over it. To my luck I found out they have an object which contains an array that has all the questions that are created. After analyzing the schema structure. I came to the conclusion that this looks like a TREE, my mind strike back to my college and school days where I learned about Types of trees in Data structure. OOP! I am not so good at it.  
 
-#### Create a schema and build UI
+### Create a schema and build UI
 I started to work on it with vanilaJS parallelly understanding about data structure. It took me two days to be comfortable with what was doing. At last, I sketch a simple js file, in which it does these operations
 - Create a root node
 - Insert a child node by giving the parent node id
@@ -56,7 +56,7 @@ With simple schema that contains id, parent_id, data. I did it. So it made my wo
 
 I was going through lots of Tree viewer libraries, every library doesn't give much customization. So I build one from scratch. I learned a lot of things while building.
 
-#### Integrate inside the product
+### Integrate inside the product
 After creating the schema structure and gave it to the model team and explained the structure and what is the functionality that will be needed when a user starts with a flow-based question. I have demonstrated the flow below
 
 - User query =>  Bot Engine [ understand the type of question and response them] 
