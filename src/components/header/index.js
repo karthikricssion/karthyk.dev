@@ -18,7 +18,7 @@ const SiteHeaderLayout = styled.div`
 
     ${media.phone`
       .logo-link {
-        width: 114px;
+        width: 114px !important;
       }
     `}
 `

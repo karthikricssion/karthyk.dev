@@ -9,11 +9,11 @@ import SEO from "../../components/seo"
 const WrittingsListPage = ({ data }) => {
     return (
         <Layout>
-            <SEO title="Writings" description="I use this space to share my thoughts on startups, design thinking, product development, ideas, code and my learnings."/>
+            <SEO title="Writings" description="I use this space to share my thoughts on startups, design thinking, product development, ideas, code  or just about the things i like to share from my experience."/>
           
             <BannerText 
               pageHeading="Writings" 
-              pageInformation="I use this space to share my thoughts on startups, design thinking, product development, ideas, code and my learnings."
+              pageInformation="I use this space to share my thoughts on startups, design thinking, product development, ideas, code or just about the things i like to share from my experience."
             />
 
             <section className="container">
