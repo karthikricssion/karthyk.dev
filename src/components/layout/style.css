@@ -645,18 +645,21 @@ html {
 .writing-content h2 {
   margin-top: 2em;
   line-height: 1.3333333333;
+  margin-bottom: 0;
 }
 
 .writing-content h3 {
-  font-size: 18px;
+  /* font-size: 18px; */
   margin-top: 2em;
   line-height: 1.7;
+  margin-bottom: 0;
 }
 
 .writing-content h4 {
-  font-size: 17px;
+  /* font-size: 17px; */
   margin-top: 2em;
   line-height: 1.3333333333;
+  margin-bottom: 0;
 }
 
 .writing-content ul li {
