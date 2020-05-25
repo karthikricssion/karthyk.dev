@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "karthik-portfolio",
+  "description": null,
+  "icons": {
+    "60": "/icons-fd2d85b33a8c94bf0f35edb79a2005e7/firefox_app_60x60.png",
+    "128": "/icons-fd2d85b33a8c94bf0f35edb79a2005e7/firefox_app_128x128.png",
+    "512": "/icons-fd2d85b33a8c94bf0f35edb79a2005e7/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
