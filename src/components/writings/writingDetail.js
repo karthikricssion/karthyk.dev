@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import DateAutherTag from './postDetailComponents/dateAuthor';
 import media from '../shared/mediaQueries';
+import AutherDetail from './author';
 
 import shardedStyle from '../shared/style.js'
 
@@ -42,6 +43,7 @@ const WritingDetails = ( props ) => {
 
             <WritingsHead>{ props.post.frontmatter.title }</WritingsHead>
             <div className="writing-content" dangerouslySetInnerHTML={{ __html: props.post.html }} />
+            <AutherDetail />
         </WritingListStyle>
     )
 }   

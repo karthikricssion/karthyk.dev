@@ -43,7 +43,7 @@ const WritingList = (props) => {
                     <time>{frontmatter.date} - {timeToRead} min read</time>
                 </WritingListDatePosted>
             
-                <Link to={frontmatter.slug}>
+                <Link to={frontmatter.slug} className="list-link">
                     <WritingListOverview>{excerpt}</WritingListOverview>
                 </Link>
             </WritingListStyle>

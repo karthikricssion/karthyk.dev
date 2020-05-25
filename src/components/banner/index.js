@@ -62,7 +62,7 @@ const BannerText = (props) => {
     
     return (
         <>
-            <section className="container">
+            <section className="container no-padding">
                 <BannerHead>{ props.pageHeading }</BannerHead>
                 <BannerHeadTwo>{ props.pageInformation }</BannerHeadTwo>
                 { showResume && 

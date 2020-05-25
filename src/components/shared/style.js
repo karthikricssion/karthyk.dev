@@ -6,7 +6,13 @@ const styles = {
         'a': {
             'text-decoration': 'none',
             'touch-action': 'manipulation'
-        }
+        },
+
+        '.list-link': {
+            '&:hover': {
+                'color': '#333333'
+            }
+        }   
     },
 
     'WritingListTitle': {

@@ -16,14 +16,14 @@ const WrittingsListPage = ({ data }) => {
               pageInformation="I use this space to share my thoughts on startups, design thinking, product development, ideas, code or just about the things i like to share from my experience."
             />
 
-            <section className="container">
+            <section className="container no-padding">
                 <WritingList writings={data.allMarkdownRemark.nodes} />
             </section>
         </Layout>
     )
   }
 
-  export default WrittingsListPage
+export default WrittingsListPage
   
 
 export const query = graphql`

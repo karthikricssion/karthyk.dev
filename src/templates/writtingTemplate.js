@@ -10,7 +10,7 @@ export default ({ data }) => {
     return (
         <Layout>
             <SEO title={post.frontmatter.title} description={post.excerpt} />
-            <section className="container">
+            <section className="container no-padding">
                 <WritingDetail post={post} />
             </section>
         </Layout>
