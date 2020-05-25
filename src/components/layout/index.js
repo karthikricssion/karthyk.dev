@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css"
 
 import Header from '../header';

@@ -7,3 +7,7 @@
     text-align: center;
     padding: 4px;
 }
+
+.connect-link:hover {
+    color: #4ec26e;
+}

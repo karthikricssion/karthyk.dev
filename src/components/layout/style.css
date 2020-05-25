@@ -618,6 +618,26 @@ html {
     margin: 48px 0;
 }
 
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.my-skills-list p {
+  margin-bottom: 0;
+}
+
+.my-skills-list a {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.my-skills-list a:hover {
+  color: #4ec26e;
+}
 
 .writing-content p {
   margin: 0;
@@ -669,6 +689,27 @@ html {
 
 .tags__link {
   text-transform: capitalize;
+}
+
+.project-card {
+  margin-bottom: 40px;
+}
+
+.project-card img {
+  margin-bottom: 8px;
+}
+
+.project-card h3, .project-card p {
+  margin-bottom: 8px;
+}
+
+.project-card a {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.project-card a:hover {
+  color: #4ec26e;
 }
 
 

@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import media from '../shared/mediaQueries';
 
+import KarthikResume from '../../assets/karthik_resume.pdf'
+
 const BannerHead = styled.h1`
     margin:0;
     font-size: 56px; 
@@ -38,11 +40,40 @@ const BannerHeadTwo = styled.h2`
     `}
 `
 
-const BannerText = (props) => (
-    <section className="container">
-        <BannerHead>{ props.pageHeading }</BannerHead>
-        <BannerHeadTwo>{ props.pageInformation }</BannerHeadTwo>
-    </section>
-)
+const BannerButton = styled.a`
+    outline: 0;
+    background-color: #000 !important;
+    border-radius: 3px;
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+`
+
+const DownloadButtonContainer = styled.div`
+    small {
+        display:block;
+        font-style:italic;
+        margin-top:4px;
+    }
+`
+
+const BannerText = (props) => {
+    const showResume = props.showResume === 'true' ? true : false
+    
+    return (
+        <>
+            <section className="container">
+                <BannerHead>{ props.pageHeading }</BannerHead>
+                <BannerHeadTwo>{ props.pageInformation }</BannerHeadTwo>
+                { showResume && 
+                    <DownloadButtonContainer>
+                        <BannerButton href={KarthikResume} download className="btn btn-primary" >Download Resume</BannerButton>
+                        <small>last updated 25th May</small>
+                    </DownloadButtonContainer>
+                }
+            </section>
+        </>
+    )
+}
 
 export default BannerText
