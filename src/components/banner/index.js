@@ -68,7 +68,7 @@ const BannerText = (props) => {
                 { showResume && 
                     <DownloadButtonContainer>
                         <BannerButton href={KarthikResume} download className="btn btn-primary" >Download Resume</BannerButton>
-                        <small>last updated 25th May</small>
+                        <small>last updated 25th May 2020</small>
                     </DownloadButtonContainer>
                 }
             </section>
