@@ -10,7 +10,7 @@ category: "Startup"
 author: { name: 'Karthikeyan Rajendran', url: 'https://twitter.com/karthik_dot_js' }
 published: true
 ---
-I was in my second year back in 2011 was doing B.Tech I.T in a college nearby Chennai. It was one of my dreams to be a part of the NSS team during my school days, unfortunately, I wasn't a part of the NSS team due to academic reasons. But time has its way of giving a chance, Yes, I had the opportunity to join in NSS team in my college. 
+Yesterday while watching a video related business. It reminds me of an event that took place when I was in my second year back in 2011 was doing B.Tech I.T in a college nearby Chennai. It was one of my dreams to be a part of the NSS team during my school days, unfortunately, I wasn't a part of the NSS team due to academic reasons. But time has its way of giving a chance, Yes, I had the opportunity to join in NSS team in my college. 
 
 ### NSS Team
 We were around nearly 50 people, planning to do a camping activity in one of nearby village 15Km from our college. We have to say there for 15 days. And get along with the village people, learn how their daily life will be. And also we learned and did lots of other activities I will explain in another blog. Let me get straight to one such activity which I personally excited to.
