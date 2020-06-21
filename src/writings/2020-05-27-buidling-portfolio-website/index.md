@@ -11,7 +11,7 @@ author: { name: 'Karthikeyan Rajendran', url: 'https://twitter.com/karthik_dot_j
 published: true
 ---
 
-It was very in 2015 I had a personal [website](http://kartoon.github.io/) hosted using github pages by my [friend](https://twitter.com/vettijoe). He crafted the message on that website, I designed it in 1 hr time. It was super simple, clean, and minimal. I loved it. But after publishing that website I wasn't focus on updating it periodically. After 5 years looking at that site now looks the same feel it gave me when I designed it. It was out of date.
+It was back in 2015 I had a personal [website](http://kartoon.github.io/) hosted using github pages by my [friend](https://twitter.com/vettijoe). He crafted the message on that website, I designed it in 1 hr time. It was super simple, clean, and minimal. I loved it. But after publishing that website I wasn't focus on updating it periodically. After 5 years looking at that site now looks the same feel it gave me when I designed it. It was out of date.
 
 Looking back from today, my life has been like a race with no finishing line. I was working with a startup that had a hard phase in the beginning and then got smoother and comfortable as the year goes on. 3 years back, I joined hands with my friend ( brother ) and 2 people to form an AI-based startup. I agreed and I started to spend time working night and day creating, reviewing, updating, and research.
 
