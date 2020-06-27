@@ -1,7 +1,7 @@
 ---
-slug: "/writings/understanding-basic-concepts"
-title: "Basic Concepts [ updated on 22nd June 2020 ] "
-date: "2020-06-20"
+slug: "/writings/js-basic-advance-concepts-resources"
+title: "JS Basic to Advance Concepts resources"
+date: "2020-06-24"
 tags: 
     - learning
     - technology
