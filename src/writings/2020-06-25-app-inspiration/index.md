@@ -44,4 +44,7 @@ It's been nearly a year I have done research on other UI/UX trends and product c
 ### Learning Tools
 [Languages](https://www.duolingo.com/)
 
+### BI Analtyics 
+[Alphaa]https://www.alphaa.ai/
+
 

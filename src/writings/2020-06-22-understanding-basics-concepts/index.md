@@ -31,7 +31,10 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [OS Algorithms](https://github.com/MadhavBahlMD/OperatingSystem-Algorithms)
 
 #### Data Structures
-[Algorithms](https://github.com/MadhavBahlMD/al-go-rithms)
+[Algorithms](https://github.com/MadhavBahlMD/al-go-rithms) \
+
+### Sorting Algorithms
+![Good Visualization of all sorting algorithms with cases](https://i.stack.imgur.com/iRxob.gif)
 
 #### Javascript
 [BASIC](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#A_high-level_definition) \
