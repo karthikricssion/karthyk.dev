@@ -75,6 +75,6 @@ This was quite interesting to see how they teach concepts via games.\
 #### Learn by doing
 [exercism.io](https://exercism.io/tracks/javascript)
 
-As you can see there are vast amount of useful and good information to get started with what ever you wish to learn. After gathering so many information I am going to stop adding until I personally go through all the resources which I have added. Below is the order am following. I will update on the go.
+As you can see there are vast amount of information to get started with anything you wish to learn. After gathering so many information I am going to hold, adding resources until I personally go through all. Below is the order am following. I will update order on the go.
 
-- [ ] JavaScript for Everyone
+[ ] JavaScript for Everyone
