@@ -77,4 +77,4 @@ This was quite interesting to see how they teach concepts via games.\
 
 As you can see there are vast amount of information to get started with anything you wish to learn. After gathering so many information I am going to hold, adding resources until I personally go through all. Below is the order am following. I will update order on the go.
 
-[ ] JavaScript for Everyone
+- [ ] JavaScript for Everyone
