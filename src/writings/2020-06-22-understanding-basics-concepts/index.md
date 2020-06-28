@@ -16,7 +16,8 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Why and What is Object Oriented Programming](https://www.reddit.com/r/learnprogramming/comments/wzkaq/explain_object_oriented_programming_to_me_like_im/) \
 [Three pillars of OOPS](https://www.reddit.com/r/explainlikeimfive/comments/j65jo/eli5_the_three_pillars_of_objectoriented/) \
 [Why there are different programming languages ?](https://www.reddit.com/r/explainlikeimfive/comments/26kikm/eli5_the_difference_in_programming_languages/) \
-[Web Skills](https://andreasbm.github.io/web-skills/)
+[Web Skills](https://andreasbm.github.io/web-skills/) \ 
+[w3resource](https://www.w3resource.com/index.php)
 
 #### Learnings
 [ALL](https://github.com/MadhavBahlMD/A-to-Z-Resources-for-Students)
