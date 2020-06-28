@@ -47,4 +47,7 @@ It's been nearly a year I have done research on other UI/UX trends and product c
 ### BI Analtyics 
 [Alphaa]https://www.alphaa.ai/
 
+### Blocky by Google
+[Block visual code](https://developers.google.com/blockly/)
+
 
