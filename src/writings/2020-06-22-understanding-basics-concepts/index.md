@@ -38,6 +38,7 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 ![Good Visualization of all sorting algorithms with cases](https://i.stack.imgur.com/iRxob.gif)
 
 #### Javascript
+[Tool for understaing JS Execution context](http://www.pythontutor.com/javascript.html)
 [BASIC](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#A_high-level_definition) \
 [JavaScript for Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone) \
 [Javascript is Sexy](https://javascriptissexy.com/) \
