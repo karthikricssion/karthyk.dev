@@ -13,6 +13,9 @@ published: true
 
 It's been nearly a year I have done research on other UI/UX trends and product concepts. I could see a huge increase in the SAAS products market.
 
+### Hackerstash
+[hackerstash](https://hackerstash.com/)
+
 #### .app Apps
 [thefutureis.app](https://thefutureis.app/)
 
