@@ -56,7 +56,11 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Functional programming](https://medium.com/dailyjs/javascript-interview-question-what-is-functional-programming-5aff8cba19e1)\
 [Javascript For designers](http://jsfordesigners.davemart.in/#get-started)
 
+#### Memory
+[References, Primitives, Equality, Immutable, Tree and Circular](https://dev.to/rafaelcalpena/javascript-objects-deep-dive-references-primitives-equality-immutable-tree-and-circular-e21)
+
 #### JS Data Structure
+[Beginners](https://adrianmejia.com/data-structures-for-beginners-trees-binary-search-tree-tutorial/)\
 [Algorithms1](https://github.com/jeantimex/javascript-problems-and-solutions#data-structures) \
 [Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
