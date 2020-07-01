@@ -16,7 +16,7 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Why and What is Object Oriented Programming](https://www.reddit.com/r/learnprogramming/comments/wzkaq/explain_object_oriented_programming_to_me_like_im/) \
 [Three pillars of OOPS](https://www.reddit.com/r/explainlikeimfive/comments/j65jo/eli5_the_three_pillars_of_objectoriented/) \
 [Why there are different programming languages ?](https://www.reddit.com/r/explainlikeimfive/comments/26kikm/eli5_the_difference_in_programming_languages/) \
-[Web Skills](https://andreasbm.github.io/web-skills/) \ 
+[Web Skills](https://andreasbm.github.io/web-skills/)\
 [w3resource](https://www.w3resource.com/index.php)
 
 #### Learnings
@@ -32,13 +32,14 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [OS Algorithms](https://github.com/MadhavBahlMD/OperatingSystem-Algorithms)
 
 #### Data Structures
-[Algorithms](https://github.com/MadhavBahlMD/al-go-rithms) \
+[Algorithms](https://github.com/MadhavBahlMD/al-go-rithms)
 
 ### Sorting Algorithms
 ![Good Visualization of all sorting algorithms with cases](https://i.stack.imgur.com/iRxob.gif)
 
 #### Javascript
-[Tool for understaing JS Execution context](http://www.pythontutor.com/javascript.html)
+[Tool for understaing JS Execution context](http://www.pythontutor.com/javascript.html)\
+[typeofnan](https://typeofnan.dev/)\
 [BASIC](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#A_high-level_definition) \
 [JavaScript for Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone) \
 [Javascript is Sexy](https://javascriptissexy.com/) \
@@ -70,7 +71,7 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 
 #### Blogs [ Important concepts in JS & CSS]
 [Davidshariff](http://davidshariff.com/blog/) \
-[Samanthaming](https://medium.com/@samanthaming)
+[Samanthaming](https://medium.com/@samanthaming)\
 [gomakethings](https://gomakethings.com/articles/)
 
 #### Games
