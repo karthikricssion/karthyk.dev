@@ -20,6 +20,9 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [w3resource](https://www.w3resource.com/index.php)\
 [The Fight Front end engineer](https://css-tricks.com/the-great-divide/)
 
+#### Case Studies
+[Interesting Engineering problems](https://github.com/andrew--r/frontend-case-studies)
+
 #### Learnings
 [ALL](https://github.com/MadhavBahlMD/A-to-Z-Resources-for-Students)
 
