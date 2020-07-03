@@ -119,7 +119,7 @@ export default IndexPage
 
 export const query = graphql`
 query LatestWriting {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, limit: 1) {
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, limit: 1, filter: {frontmatter: {published: {eq: true}}}) {
       nodes {
         frontmatter {
             date(formatString: "D MMMM YYYY")

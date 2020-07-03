@@ -28,7 +28,7 @@ export default WrittingsListPage
 
 export const query = graphql`
 query TagsList {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC},) {
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
       nodes {
         frontmatter {
           date(formatString: "D MMMM YYYY")

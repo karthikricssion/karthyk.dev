@@ -19,7 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
     const result = await graphql(`
         query MyBlogList {
-            allMarkdownRemark {
+            allMarkdownRemark(filter: {frontmatter: {published: {eq: true}}}) {
                 edges {
                     node {
                         frontmatter {
@@ -30,7 +30,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
-        }
+        }      
       
     `)
     
@@ -48,6 +48,7 @@ exports.createPages = async ({ graphql, actions }) => {
             categorySet.add(node.frontmatter.category)
         }
 
+        
         createPage({
             path: node.frontmatter.slug,
             component: path.resolve(`./src/templates/writtingTemplate.js`),

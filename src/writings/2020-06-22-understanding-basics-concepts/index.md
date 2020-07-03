@@ -17,7 +17,8 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Three pillars of OOPS](https://www.reddit.com/r/explainlikeimfive/comments/j65jo/eli5_the_three_pillars_of_objectoriented/) \
 [Why there are different programming languages ?](https://www.reddit.com/r/explainlikeimfive/comments/26kikm/eli5_the_difference_in_programming_languages/) \
 [Web Skills](https://andreasbm.github.io/web-skills/)\
-[w3resource](https://www.w3resource.com/index.php)
+[w3resource](https://www.w3resource.com/index.php)\
+[The Fight Front end engineer](https://css-tricks.com/the-great-divide/)
 
 #### Learnings
 [ALL](https://github.com/MadhavBahlMD/A-to-Z-Resources-for-Students)
@@ -84,6 +85,9 @@ This was quite interesting to see how they teach concepts via games.\
 
 #### Learn by doing
 [exercism.io](https://exercism.io/tracks/javascript)
+
+#### Tutorial Learnings
+[javascripttutorial](https://www.javascripttutorial.net/javascript-closure/)
 
 As you can see there are vast amount of information to get started with anything you wish to learn. After gathering so many information I am going to hold, adding resources until I personally go through all. Below is the order am following. I will update order on the go.
 
