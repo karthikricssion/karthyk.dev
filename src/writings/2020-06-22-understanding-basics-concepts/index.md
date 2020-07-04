@@ -6,7 +6,7 @@ tags:
     - learning
     - technology
     - basics
-category: "concepts"
+category: "Productivity"
 author: { name: 'Karthikeyan Rajendran', url: 'https://twitter.com/karthik_dot_js' }
 published: true
 ---
