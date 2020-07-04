@@ -88,9 +88,14 @@ This was quite interesting to see how they teach concepts via games.\
 
 #### Learn by doing
 [exercism.io](https://exercism.io/tracks/javascript)
+[JSVault](https://jsvault.com/array-map)
 
 #### Tutorial Learnings
 [javascripttutorial](https://www.javascripttutorial.net/javascript-closure/)
+
+#### People
+[siddharthkp](https://github.com/siddharthkp) - A self learned engineer \
+[Json](https://jasonformat.com/) 
 
 As you can see there are vast amount of information to get started with anything you wish to learn. After gathering so many information I am going to hold, adding resources until I personally go through all. Below is the order am following. I will update order on the go.
 
