@@ -94,6 +94,7 @@ This was quite interesting to see how they teach concepts via games.\
 [javascripttutorial](https://www.javascripttutorial.net/javascript-closure/)
 
 #### People
+[Dan - React Guy](https://overreacted.io/)\
 [siddharthkp](https://github.com/siddharthkp) - A self learned engineer \
 [Json](https://jasonformat.com/) 
 
