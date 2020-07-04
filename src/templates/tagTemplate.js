@@ -28,7 +28,7 @@ export const query = graphql`
 
         allMarkdownRemark(
             sort: {fields: frontmatter___date, order: DESC}, 
-            filter: {frontmatter: {tags: {in: [$tag]}}, published: {eq: true} }, 
+            filter: {frontmatter: {tags: {in: [$tag]}, published: {eq: true} }}, 
         ) {
             nodes {
                 frontmatter {
