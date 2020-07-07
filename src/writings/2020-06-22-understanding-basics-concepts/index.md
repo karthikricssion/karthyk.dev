@@ -45,6 +45,7 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Tool for understaing JS Execution context](http://www.pythontutor.com/javascript.html)\
 [typeofnan](https://typeofnan.dev/)\
 [BASIC](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#A_high-level_definition) \
+[Airbnb - style guide](https://github.com/airbnb/javascript)
 [JavaScript for Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone) \
 [Javascript is Sexy](https://javascriptissexy.com/) \
 [Robust Client-Side JavaScript](https://molily.de/robust-javascript/#introduction) \
@@ -66,7 +67,8 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 #### JS Data Structure
 [Beginners](https://adrianmejia.com/data-structures-for-beginners-trees-binary-search-tree-tutorial/)\
 [Algorithms1](https://github.com/jeantimex/javascript-problems-and-solutions#data-structures) \
-[Algorithms](https://github.com/trekhleb/javascript-algorithms)
+[Algorithms](https://github.com/trekhleb/javascript-algorithms) \
+[DNA of JS](https://github.com/amarpreetsingh29/algorithms)
 
 #### CSS
 [Flexbox](https://flexboxfroggy.com/)
