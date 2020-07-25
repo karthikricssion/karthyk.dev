@@ -18,7 +18,15 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Why there are different programming languages ?](https://www.reddit.com/r/explainlikeimfive/comments/26kikm/eli5_the_difference_in_programming_languages/) \
 [Web Skills](https://andreasbm.github.io/web-skills/)\
 [w3resource](https://www.w3resource.com/index.php)\
-[The Fight Front end engineer](https://css-tricks.com/the-great-divide/)
+[The Fight Front end engineer](https://css-tricks.com/the-great-divide/)\
+[JS - this](https://www.reddit.com/r/javascript/comments/7yki4d/explain_like_im_5_this/)\
+[OOP JS](http://www.jainakash.in/blogs/javascript-blog-1/)
+
+#### JavaScript News
+[codetogo](https://codetogo.io/)
+
+#### Interactive Learning
+[learnjavascript](https://learnjavascript.online/app.html)
 
 #### Case Studies
 [Interesting Engineering problems](https://github.com/andrew--r/frontend-case-studies)
@@ -89,7 +97,7 @@ This was quite interesting to see how they teach concepts via games.\
 [codepip](https://codepip.com/)
 
 #### Learn by doing
-[exercism.io](https://exercism.io/tracks/javascript)
+[exercism.io](https://exercism.io/tracks/javascript)\
 [JSVault](https://jsvault.com/array-map)
 
 #### Tutorial Learnings
@@ -99,6 +107,8 @@ This was quite interesting to see how they teach concepts via games.\
 [Dan - React Guy](https://overreacted.io/)\
 [siddharthkp](https://github.com/siddharthkp) - A self learned engineer \
 [Json](https://jasonformat.com/) 
+[Dmitri Pavlutin - Simple JS](https://dmitripavlutin.com/)
+[sarah chima](https://dev.to/sarah_chima/)
 
 As you can see there are vast amount of information to get started with anything you wish to learn. After gathering so many information I am going to hold, adding resources until I personally go through all. Below is the order am following. I will update order on the go.
 
