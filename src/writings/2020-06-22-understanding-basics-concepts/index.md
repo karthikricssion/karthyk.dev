@@ -78,6 +78,9 @@ Throughtout the fast going world we sometimes miss to learn the concepts, If you
 [Algorithms](https://github.com/trekhleb/javascript-algorithms) \
 [DNA of JS](https://github.com/amarpreetsingh29/algorithms)
 
+#### Currying
+[codekirei.com](http://codekirei.com/posts/currying-with-arrow-functions/)
+
 #### CSS
 [Flexbox](https://flexboxfroggy.com/)
 
