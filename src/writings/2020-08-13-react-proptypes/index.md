@@ -4,7 +4,7 @@ title: "What is the use of proptypes in ReactJS"
 date: "2020-08-13"
 tags: 
     - tech
-    - funda
+    - fundamentals
     - reactjs
 category: "learning"
 author: { name: 'Karthikeyan Rajendran', url: 'https://twitter.com/karthik_dot_js' }
