@@ -1,7 +1,7 @@
 ---
 slug: "/writings/what-is-react-proptypes"
 title: "What is the use of proptypes in ReactJS"
-date: "2020-06-01"
+date: "2020-08-13"
 tags: 
     - tech
     - funda
