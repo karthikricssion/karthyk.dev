@@ -70,14 +70,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `IBM Plex Sans`,
-            variants: [`100`, `200`, `300`, `400`, `500`, `600`, `700`]
-          },
+          "IBM Plex Mono\:100,200,300,400,500,600,700",
         ],
+        display: 'swap'
       },
     },
     {
